@@ -1,0 +1,31 @@
+[
+    "result",
+    [
+        {
+            "metric": {
+                "__name__": "eth_exe_net_peer_count",
+                "container": "ethereum-metrics-exporter",
+                "endpoint": "http",
+                "ethereum_role": "execution",
+                "instance": "10.0.4.151:9090",
+                "job": "bsc-node-metrics-exporter-ethereum-metrics-exporter",
+                "module": "web3",
+                "namespace": "bsc",
+                "node_name": "execution-client",
+                "pod": "bsc-node-metrics-exporter-ethereum-metrics-exporter-7488c7zk9k2",
+                "service": "bsc-node-metrics-exporter-ethereum-metrics-exporter"
+            },
+            "values": [
+                [1677052200, "1"],
+                [1677052500, "2"],
+                [1677052800, "2"],
+                [1677053100, "3"],
+                [1677053400, "3"],
+                [1677053700, "3"],
+                [1677054000, "2"],
+                [1677054300, "2"],
+                [1677054600, "3"]
+            ]
+        }
+    ]
+]
