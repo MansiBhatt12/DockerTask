@@ -7,14 +7,14 @@ This Dockerfile is used to build a Docker image for a Node.js application. It se
 3. Build the Docker image:
    Open a terminal, navigate to the directory containing the extracted source code and the `Dockerfile.frontend`, and run the following command to build the Docker image:
    
-   $ docker build -t frontend-image:v1 -f Dockerfile.frontend .
+   docker build -t frontend-image:v1 -f Dockerfile.frontend .
  
    This command builds the Docker image and tags it with the name `frontend-image:v1`.
 
 4. Run the Docker container:
    Once the Docker image is built, you can run a container based on it using the following command:
    
-   $ docker run -p 3000:3000 frontend-image:v1
+   docker run -p 3000:3000 frontend-image:v1
 
    This command starts a container based on the `frontend-image:v1` image and maps port `3000` from the container to port `3000` on the host. This allows you to access the running Node.js app  from your local system.
 
