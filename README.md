@@ -23,6 +23,6 @@ This Dockerfile is used to build a Docker image for a Node.js application. It se
    
    # File Structure
 
-    Dockerfile: Contains the instructions to build the Docker image.
-    app.js: Node.js application entry point.
-    package.json and package-lock.json: Application dependencies.
+    1. Dockerfile: Contains the instructions to build the Docker image.
+    2. app.js: Node.js application entry point.
+    3. package.json and package-lock.json: Application dependencies.
